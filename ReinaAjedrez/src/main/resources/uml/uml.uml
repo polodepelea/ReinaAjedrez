@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:PapyrusJava="http://www.eclipse.org/papyrus/PapyrusJava/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_bw1JcFWAEe2Kp5Fm8amPmw" name="uml">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_b0IVEFWAEe2Kp5Fm8amPmw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_hTEqAFWAEe2Kp5Fm8amPmw" name="ReinaAjedrezResuelto">
+      <packagedElement xmi:type="uml:Package" xmi:id="_hVsgMFWAEe2Kp5Fm8amPmw" name="org">
+        <packagedElement xmi:type="uml:Package" xmi:id="_hVu8cFWAEe2Kp5Fm8amPmw" name="iesalandalus">
+          <packagedElement xmi:type="uml:Package" xmi:id="_hVwxoFWAEe2Kp5Fm8amPmw" name="programacion">
+            <packagedElement xmi:type="uml:Package" xmi:id="_hVx_wFWAEe2Kp5Fm8amPmw" name="reinaajedrez">
+              <packagedElement xmi:type="uml:Package" xmi:id="_hVzN4FWAEe2Kp5Fm8amPmw" name="modelo"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_hWLBUFWAEe2Kp5Fm8amPmw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_hWM2gFWAEe2Kp5Fm8amPmw" name="java">
+        <packagedElement xmi:type="uml:Package" xmi:id="_hWOrsFWAEe2Kp5Fm8amPmw" name="lang">
+          <packagedElement xmi:type="uml:Class" xmi:id="_hWQg4FWAEe2Kp5Fm8amPmw" name="String"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_hf4W8FWAEe2Kp5Fm8amPmw" name="Object"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_heZJMFWAEe2Kp5Fm8amPmw" name="importedTypes">
+      <packagedElement xmi:type="uml:Package" xmi:id="_hea-YFWAEe2Kp5Fm8amPmw" name="primitivetype">
+        <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_heczkFWAEe2Kp5Fm8amPmw" name="int"/>
+        <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_hfIJAFWAEe2Kp5Fm8amPmw" name="char"/>
+        <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_hgASwFWAEe2Kp5Fm8amPmw" name="boolean"/>
+        <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_vH4gQFXZEe2vP-nFC_DPSQ" name="int"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_hel9gFWAEe2Kp5Fm8amPmw" name="javax">
+        <packagedElement xmi:type="uml:Package" xmi:id="_henysFWAEe2Kp5Fm8amPmw" name="naming">
+          <packagedElement xmi:type="uml:Class" xmi:id="_hepA0FWAEe2Kp5Fm8amPmw" name="OperationNotSupportedException"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_vH8xsFXZEe2vP-nFC_DPSQ" name="org">
+        <packagedElement xmi:type="uml:Package" xmi:id="_vH9_0FXZEe2vP-nFC_DPSQ" name="iesalandalus">
+          <packagedElement xmi:type="uml:Package" xmi:id="_vH9_0VXZEe2vP-nFC_DPSQ" name="programacion">
+            <packagedElement xmi:type="uml:Package" xmi:id="_vH-m4FXZEe2vP-nFC_DPSQ" name="reinaajedrez">
+              <packagedElement xmi:type="uml:Package" xmi:id="_vH_N8FXZEe2vP-nFC_DPSQ" name="modelo">
+                <packagedElement xmi:type="uml:Class" xmi:id="_vH_1AFXZEe2vP-nFC_DPSQ" name="Color"/>
+                <packagedElement xmi:type="uml:Class" xmi:id="_vILbMFXZEe2vP-nFC_DPSQ" name="Direccion"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_xDR18FXZEe2vP-nFC_DPSQ" name="org.iesalandalus.programacion.reinaajedrez">
+      <packagedElement xmi:type="uml:Class" xmi:id="_vIinkFXZEe2vP-nFC_DPSQ" name="MainApp" visibility="public">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_vIpVQFXZEe2vP-nFC_DPSQ" name="reina" visibility="private" isStatic="true" type="_hdApIFWAEe2Kp5Fm8amPmw" isUnique="false" aggregation="composite" association="_4A9gIFXhEe2ix664qO4kow"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vIwC8FXZEe2vP-nFC_DPSQ" name="main" specification="_vIsYkFXZEe2vP-nFC_DPSQ">
+          <language>JAVA</language>
+          <body>
+    int opcion;
+    do {
+        Consola.mostarMenu();
+        opcion = Consola.elegirOpcionMenu();
+        ejecutarOpcion(opcion);
+        mostrarReina();
+    } while (opcion != 0);
+    Consola.despedirse();
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vI0UYFXZEe2vP-nFC_DPSQ" name="ejecutarOpcion" specification="_vIx4IFXZEe2vP-nFC_DPSQ">
+          <language>JAVA</language>
+          <body>
+    switch(opcion) {
+        case 1:
+            crearReinaDefecto();
+            break;
+        case 2:
+            crearReinaColor();
+            break;
+        case 3:
+            if (reina != null) {
+                mover();
+            } else {
+                System.out.println(&quot;No se puede realizar ningún movimiento ya que aún no se ha creado ninguna Reina.\n&quot;);
+            }
+            break;
+        default:
+            break;
+    }
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vI2woFXZEe2vP-nFC_DPSQ" name="crearReinaDefecto" specification="_vI1igFXZEe2vP-nFC_DPSQ">
+          <language>JAVA</language>
+          <body>
+    reina = new Reina();
+    System.out.println(&quot;Reina por defecto creada satisfactoriamente.\n&quot;);
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vI5M4FXZEe2vP-nFC_DPSQ" name="crearReinaColor" specification="_vI3-wFXZEe2vP-nFC_DPSQ">
+          <language>JAVA</language>
+          <body>
+    Color color = Consola.elegirColor();
+    reina = new Reina(color);
+    System.out.println(&quot;Reina con color creada satisfactoriamente.\n&quot;);
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vI7pIFXZEe2vP-nFC_DPSQ" name="mover" specification="_vI6bAFXZEe2vP-nFC_DPSQ">
+          <language>JAVA</language>
+          <body>
+    Consola.mostrarMenuDirecciones();
+    Direccion direccion = Consola.elegirDireccion();
+    int pasos = Consola.elegirPasos();
+    try {
+        reina.mover(direccion, pasos);
+        System.out.println(&quot;Movimiento realizado correctamente.\n&quot;);
+    } catch (OperationNotSupportedExceptionIllegalArgumentException |  e) {
+        System.out.println(e.getMessage() + &quot;\n&quot;);
+    }
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vI9eUFXZEe2vP-nFC_DPSQ" name="mostrarReina" specification="_vI83QFXZEe2vP-nFC_DPSQ">
+          <language>JAVA</language>
+          <body>
+    if (reina != null) {
+        System.out.println(&quot;Reina: &quot; + reina + &quot;\n&quot;);
+    } else {
+        System.out.println(&quot;Aún no se ha creado ninguna Reina.\n&quot;);
+    }
+</body>
+        </ownedBehavior>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_vIsYkFXZEe2vP-nFC_DPSQ" name="main" visibility="public" isStatic="true" method="_vIwC8FXZEe2vP-nFC_DPSQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_vItmsFXZEe2vP-nFC_DPSQ" name="args" type="_hWQg4FWAEe2Kp5Fm8amPmw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vIu00FXZEe2vP-nFC_DPSQ"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vIvb4FXZEe2vP-nFC_DPSQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_vIx4IFXZEe2vP-nFC_DPSQ" name="ejecutarOpcion" visibility="private" isStatic="true" method="_vI0UYFXZEe2vP-nFC_DPSQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_vIzGQFXZEe2vP-nFC_DPSQ" name="opcion" type="_vH4gQFXZEe2vP-nFC_DPSQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_vI1igFXZEe2vP-nFC_DPSQ" name="crearReinaDefecto" visibility="private" isStatic="true" method="_vI2woFXZEe2vP-nFC_DPSQ"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_vI3-wFXZEe2vP-nFC_DPSQ" name="crearReinaColor" visibility="private" isStatic="true" method="_vI5M4FXZEe2vP-nFC_DPSQ"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_vI6bAFXZEe2vP-nFC_DPSQ" name="mover" visibility="private" isStatic="true" method="_vI7pIFXZEe2vP-nFC_DPSQ"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_vI83QFXZEe2vP-nFC_DPSQ" name="mostrarReina" visibility="private" isStatic="true" method="_vI9eUFXZEe2vP-nFC_DPSQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_vG6P4FXZEe2vP-nFC_DPSQ" name="Consola" visibility="public">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vHNK0FXZEe2vP-nFC_DPSQ" name="Consola" specification="_vG-hUFXZEe2vP-nFC_DPSQ">
+          <language>JAVA</language>
+          <body>
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vHSqYFXZEe2vP-nFC_DPSQ" name="mostarMenu" specification="_vHPnEFXZEe2vP-nFC_DPSQ">
+          <language>JAVA</language>
+          <body>
+    System.out.println(&quot;Programa para aprender a colocar y mover la reina en el tablero de ajedrez&quot;);
+    System.out.println(&quot;--------------------------------------------------------------------------&quot;);
+    System.out.println(&quot;&quot;);
+    System.out.println(&quot;1.- Crear una reina por defecto.&quot;);
+    System.out.println(&quot;2.- Crear una reina eligiendo el color.&quot;);
+    System.out.println(&quot;3.- Mover reina.&quot;);
+    System.out.println(&quot;&quot;);
+    System.out.println(&quot;0.- Salir.&quot;);
+    System.out.println(&quot;&quot;);
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vH68gFXZEe2vP-nFC_DPSQ" name="elegirOpcionMenu" specification="_vHT4gFXZEe2vP-nFC_DPSQ">
+          <language>JAVA</language>
+          <body>
+    int opcion;
+    do {
+        System.out.print(&quot;Elige una opción (0-3): &quot;);
+        opcion = Entrada.entero();
+    } while (opcion &lt; 0 || opcion > 3);
+    return opcion;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vIGisFXZEe2vP-nFC_DPSQ" name="elegirColor" specification="_vH8KoFXZEe2vP-nFC_DPSQ">
+          <language>JAVA</language>
+          <body>
+    int opcion;
+    do {
+        System.out.print(&quot;Elige un color (0.- Blanco, 1.- Negro): &quot;);
+        opcion = Entrada.entero();
+    } while (opcion != 0 &amp;&amp; opcion != 1);
+    return (opcion == 0) ? Color.BLANCO : Color.NEGRO;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vII-8FXZEe2vP-nFC_DPSQ" name="mostrarMenuDirecciones" specification="_vIHw0FXZEe2vP-nFC_DPSQ">
+          <language>JAVA</language>
+          <body>
+    System.out.println(&quot;0.- Norte.&quot;);
+    System.out.println(&quot;1.- Noreste.&quot;);
+    System.out.println(&quot;2.- Este.&quot;);
+    System.out.println(&quot;3.- Sureste.&quot;);
+    System.out.println(&quot;4.- Sur.&quot;);
+    System.out.println(&quot;5.- Suroeste.&quot;);
+    System.out.println(&quot;6.- Oeste.&quot;);
+    System.out.println(&quot;7.- Noroeste.\n&quot;);
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vIRh0FXZEe2vP-nFC_DPSQ" name="elegirDireccion" specification="_vIKNEFXZEe2vP-nFC_DPSQ">
+          <language>JAVA</language>
+          <body>
+    int opcion;
+    do {
+        System.out.print(&quot;Elige una dirección (0 - 7): &quot;);
+        opcion = Entrada.entero();
+    } while (opcion &lt; 0 || opcion > 7);
+    Direccion direccion = null;
+    switch(opcion) {
+        case 0:
+            direccion = Direccion.NORTE;
+            break;
+        case 1:
+            direccion = Direccion.NORESTE;
+            break;
+        case 2:
+            direccion = Direccion.ESTE;
+            break;
+        case 3:
+            direccion = Direccion.SURESTE;
+            break;
+        case 4:
+            direccion = Direccion.SUR;
+            break;
+        case 5:
+            direccion = Direccion.SUROESTE;
+            break;
+        case 6:
+            direccion = Direccion.OESTE;
+            break;
+        case 7:
+            direccion = Direccion.NOROESTE;
+            break;
+        default:
+            break;
+    }
+    return direccion;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vIVMMFXZEe2vP-nFC_DPSQ" name="elegirPasos" specification="_vITXAFXZEe2vP-nFC_DPSQ">
+          <language>JAVA</language>
+          <body>
+    System.out.print(&quot;Introduce el número de pasos a mover: &quot;);
+    return Entrada.entero();
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vIYPgFXZEe2vP-nFC_DPSQ" name="despedirse" specification="_vIWaUFXZEe2vP-nFC_DPSQ">
+          <language>JAVA</language>
+          <body>
+    System.out.println(&quot;Hasta luego Lucas!!!!&quot;);
+</body>
+        </ownedBehavior>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_vG-hUFXZEe2vP-nFC_DPSQ" name="Consola" visibility="private" method="_vHNK0FXZEe2vP-nFC_DPSQ"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_vHPnEFXZEe2vP-nFC_DPSQ" name="mostarMenu" visibility="public" isStatic="true" method="_vHSqYFXZEe2vP-nFC_DPSQ"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_vHT4gFXZEe2vP-nFC_DPSQ" name="elegirOpcionMenu" visibility="public" isStatic="true" method="_vH68gFXZEe2vP-nFC_DPSQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_vH5HUFXZEe2vP-nFC_DPSQ" type="_vH4gQFXZEe2vP-nFC_DPSQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_vH8KoFXZEe2vP-nFC_DPSQ" name="elegirColor" visibility="public" isStatic="true" method="_vIGisFXZEe2vP-nFC_DPSQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_vIFUkFXZEe2vP-nFC_DPSQ" type="_vH_1AFXZEe2vP-nFC_DPSQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_vIHw0FXZEe2vP-nFC_DPSQ" name="mostrarMenuDirecciones" visibility="public" isStatic="true" method="_vII-8FXZEe2vP-nFC_DPSQ"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_vIKNEFXZEe2vP-nFC_DPSQ" name="elegirDireccion" visibility="public" isStatic="true" method="_vIRh0FXZEe2vP-nFC_DPSQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_vIQTsFXZEe2vP-nFC_DPSQ" type="_vILbMFXZEe2vP-nFC_DPSQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_vITXAFXZEe2vP-nFC_DPSQ" name="elegirPasos" visibility="public" isStatic="true" method="_vIVMMFXZEe2vP-nFC_DPSQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_vIT-EFXZEe2vP-nFC_DPSQ" type="_vH4gQFXZEe2vP-nFC_DPSQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_vIWaUFXZEe2vP-nFC_DPSQ" name="despedirse" visibility="public" isStatic="true" method="_vIYPgFXZEe2vP-nFC_DPSQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="__vgXQFWAEe2Kp5Fm8amPmw" name="org.iesalandalus.programacion.reinaajedrez.modelo">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_E8VW8FXNEe2vP-nFC_DPSQ" annotatedElement="_hV3fUFWAEe2Kp5Fm8amPmw">
+          <body>-String cadenaAMostrar;
+----------------------------------------------
+-Color(cadenaAMostrar: String)
++toString(): String</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_hV3fUFWAEe2Kp5Fm8amPmw" name="Color" visibility="public">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_hbipgFWAEe2Kp5Fm8amPmw" name="cadenaAMostrar" visibility="private" type="_hWQg4FWAEe2Kp5Fm8amPmw" isUnique="false"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_hboJEFWAEe2Kp5Fm8amPmw" name="Color" visibility="private">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hb1kcFWAEe2Kp5Fm8amPmw" name="cadenaAMostrar" type="_hWQg4FWAEe2Kp5Fm8amPmw"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_hb5O0FWAEe2Kp5Fm8amPmw" name="toString" visibility="public">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hb9gQFWAEe2Kp5Fm8amPmw" type="_hWQg4FWAEe2Kp5Fm8amPmw" direction="return"/>
+          </ownedOperation>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_hV7wwFWAEe2Kp5Fm8amPmw" name="BLANCO">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_hWDFgFWAEe2Kp5Fm8amPmw" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Blanco&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_hWFhwFWAEe2Kp5Fm8amPmw" name="NEGRO">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_hWGv4FWAEe2Kp5Fm8amPmw" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Negro&quot;</body>
+            </specification>
+          </ownedLiteral>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_hcCYwFWAEe2Kp5Fm8amPmw" name="Direccion" visibility="public">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_hcaMMFWAEe2Kp5Fm8amPmw" name="cadenaAMostrar" visibility="private" type="_hWQg4FWAEe2Kp5Fm8amPmw" isUnique="false"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_hccocFWAEe2Kp5Fm8amPmw" name="Direccion" visibility="private">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hcnnkFWAEe2Kp5Fm8amPmw" name="cadenaAMostrar" type="_hWQg4FWAEe2Kp5Fm8amPmw"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_hcpcwFWAEe2Kp5Fm8amPmw" name="toString" visibility="public">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hcr5AFWAEe2Kp5Fm8amPmw" type="_hWQg4FWAEe2Kp5Fm8amPmw" direction="return"/>
+          </ownedOperation>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_hcEN8FWAEe2Kp5Fm8amPmw" name="NORTE">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_hcE1AFWAEe2Kp5Fm8amPmw" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Norte&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_hcH4UFWAEe2Kp5Fm8amPmw" name="NORESTE">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_hcJGcFWAEe2Kp5Fm8amPmw" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Noreste&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_hcK7oFWAEe2Kp5Fm8amPmw" name="ESTE">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_hcLisFWAEe2Kp5Fm8amPmw" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Este&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_hcMJwFWAEe2Kp5Fm8amPmw" name="SURESTE">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_hcNX4FWAEe2Kp5Fm8amPmw" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Sureste&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_hcPNEFWAEe2Kp5Fm8amPmw" name="SUR">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_hcQbMFWAEe2Kp5Fm8amPmw" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Sur&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_hcS3cFWAEe2Kp5Fm8amPmw" name="SUROESTE">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_hcUFkFWAEe2Kp5Fm8amPmw" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Suroeste&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_hcVTsFWAEe2Kp5Fm8amPmw" name="OESTE">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_hcV6wFWAEe2Kp5Fm8amPmw" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Oeste&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_hcWh0FWAEe2Kp5Fm8amPmw" name="NOROESTE">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_hcXI4FWAEe2Kp5Fm8amPmw" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Noroeste&quot;</body>
+            </specification>
+          </ownedLiteral>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_hdApIFWAEe2Kp5Fm8amPmw" name="Reina" visibility="public">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_hdDscFWAEe2Kp5Fm8amPmw" name="color" visibility="private" type="_hV3fUFWAEe2Kp5Fm8amPmw" isUnique="false" aggregation="composite" association="_OwuMsFXOEe2vP-nFC_DPSQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_hdHW0FWAEe2Kp5Fm8amPmw" name="posicion" visibility="private" type="_hdGIsFWAEe2Kp5Fm8amPmw" isUnique="false" aggregation="composite" association="_NksecFXOEe2vP-nFC_DPSQ"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hdRu4FWAEe2Kp5Fm8amPmw" name="Reina" specification="_hdIk8FWAEe2Kp5Fm8amPmw">
+            <language>JAVA</language>
+            <body>
+    color = Color.BLANCO;
+    posicion = new Posicion(1, 'd');
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hdhmgFWAEe2Kp5Fm8amPmw" name="Reina" specification="_hdVZQFWAEe2Kp5Fm8amPmw">
+            <language>JAVA</language>
+            <body>
+    setColor(color);
+    setPosicion((color == Color.BLANCO) ? new Posicion(1, 'd') : new Posicion(8, 'd'));
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hdnGEFWAEe2Kp5Fm8amPmw" name="getColor" specification="_hdlQ4FWAEe2Kp5Fm8amPmw">
+            <language>JAVA</language>
+            <body>
+    return color;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hdtMsFWAEe2Kp5Fm8amPmw" name="setColor" specification="_hdqJYFWAEe2Kp5Fm8amPmw">
+            <language>JAVA</language>
+            <body>
+    if (color == null) {
+        throw new NullPointerException(&quot;ERROR: El color no puede ser nulo.&quot;);
+    }
+    this.color = color;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hdyFMFWAEe2Kp5Fm8amPmw" name="getPosicion" specification="_hdvB4FWAEe2Kp5Fm8amPmw">
+            <language>JAVA</language>
+            <body>
+    return posicion;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hd1vkFWAEe2Kp5Fm8amPmw" name="setPosicion" specification="_hdysQFWAEe2Kp5Fm8amPmw">
+            <language>JAVA</language>
+            <body>
+    /*if (posicion == null) {
+			throw new NullPointerException(&quot;ERROR: La posicion no puede ser nula.&quot;);
+		}*/
+    this.posicion = posicion;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_he2cMFWAEe2Kp5Fm8amPmw" name="mover" specification="_heeowFWAEe2Kp5Fm8amPmw">
+            <language>JAVA</language>
+            <body>
+    if (direccion == null) {
+        throw new NullPointerException(&quot;ERROR: La dirección no puede ser nula.&quot;);
+    }
+    if (pasos &lt; 1 || pasos > 7) {
+        throw new IllegalArgumentException(&quot;ERROR: El número de pasos debe estar comprendido entre 1 y 7.&quot;);
+    }
+    int nuevaFila = posicion.getFila();
+    char nuevaColumna = posicion.getColumna();
+    switch(direccion) {
+        case NORTE:
+            nuevaFila += pasos;
+            break;
+        case NORESTE:
+            nuevaFila += pasos;
+            nuevaColumna += pasos;
+            break;
+        case ESTE:
+            nuevaColumna += pasos;
+            break;
+        case SURESTE:
+            nuevaFila -= pasos;
+            nuevaColumna += pasos;
+            break;
+        case SUR:
+            nuevaFila -= pasos;
+            break;
+        case SUROESTE:
+            nuevaFila -= pasos;
+            nuevaColumna -= pasos;
+            break;
+        case OESTE:
+            nuevaColumna -= pasos;
+            break;
+        case NOROESTE:
+            nuevaFila += pasos;
+            nuevaColumna -= pasos;
+            break;
+    }
+    try {
+        setPosicion(new Posicion(nuevaFila, nuevaColumna));
+    } catch (IllegalArgumentException e) {
+        throw new OperationNotSupportedException(&quot;ERROR: Movimiento no válido (se sale del tablero).&quot;);
+    }
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_he77wFWAEe2Kp5Fm8amPmw" name="toString" specification="_he44cFWAEe2Kp5Fm8amPmw">
+            <language>JAVA</language>
+            <body>
+    return String.format(&quot;color=%s, posicion=(%s)&quot;, color, posicion);
+</body>
+          </ownedBehavior>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_hdIk8FWAEe2Kp5Fm8amPmw" name="Reina" visibility="public" method="_hdRu4FWAEe2Kp5Fm8amPmw"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_hdVZQFWAEe2Kp5Fm8amPmw" name="Reina" visibility="public" method="_hdhmgFWAEe2Kp5Fm8amPmw">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hdfKQFWAEe2Kp5Fm8amPmw" name="color" type="_hV3fUFWAEe2Kp5Fm8amPmw"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_hdlQ4FWAEe2Kp5Fm8amPmw" name="getColor" visibility="public" method="_hdnGEFWAEe2Kp5Fm8amPmw">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hdmfAFWAEe2Kp5Fm8amPmw" type="_hV3fUFWAEe2Kp5Fm8amPmw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_hdqJYFWAEe2Kp5Fm8amPmw" name="setColor" visibility="private" method="_hdtMsFWAEe2Kp5Fm8amPmw">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hdrXgFWAEe2Kp5Fm8amPmw" name="color" type="_hV3fUFWAEe2Kp5Fm8amPmw"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_hdvB4FWAEe2Kp5Fm8amPmw" name="getPosicion" visibility="public" method="_hdyFMFWAEe2Kp5Fm8amPmw">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hdw3EFWAEe2Kp5Fm8amPmw" type="_hdGIsFWAEe2Kp5Fm8amPmw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_hdysQFWAEe2Kp5Fm8amPmw" name="setPosicion" visibility="private" method="_hd1vkFWAEe2Kp5Fm8amPmw">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hdz6YFWAEe2Kp5Fm8amPmw" name="posicion" type="_hdGIsFWAEe2Kp5Fm8amPmw"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_heeowFWAEe2Kp5Fm8amPmw" name="mover" visibility="public" method="_he2cMFWAEe2Kp5Fm8amPmw" raisedException="_hepA0FWAEe2Kp5Fm8amPmw">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hehFAFWAEe2Kp5Fm8amPmw" name="direccion" type="_hcCYwFWAEe2Kp5Fm8amPmw"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hejhQFWAEe2Kp5Fm8amPmw" name="pasos" type="_heczkFWAEe2Kp5Fm8amPmw"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_he44cFWAEe2Kp5Fm8amPmw" name="toString" visibility="public" method="_he77wFWAEe2Kp5Fm8amPmw">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_he6toFWAEe2Kp5Fm8amPmw" type="_hWQg4FWAEe2Kp5Fm8amPmw" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_hdGIsFWAEe2Kp5Fm8amPmw" name="Posicion" visibility="public">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_hfGT0FWAEe2Kp5Fm8amPmw" name="fila" visibility="private" type="_heczkFWAEe2Kp5Fm8amPmw" isUnique="false"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_hfJ-MFWAEe2Kp5Fm8amPmw" name="columna" visibility="private" type="_hfIJAFWAEe2Kp5Fm8amPmw" isUnique="false"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hfYAoFWAEe2Kp5Fm8amPmw" name="Posicion" specification="_hfLMUFWAEe2Kp5Fm8amPmw">
+            <language>JAVA</language>
+            <body>
+    setFila(fila);
+    setColumna(columna);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hfk08FWAEe2Kp5Fm8amPmw" name="Posicion" specification="_hfac4FWAEe2Kp5Fm8amPmw">
+            <language>JAVA</language>
+            <body>
+    if (posicion == null) {
+        throw new NullPointerException(&quot;ERROR: No es posible copiar una posición nula.&quot;);
+    }
+    this.fila = posicion.getFila();
+    this.columna = posicion.getColumna();
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hfq7kFWAEe2Kp5Fm8amPmw" name="setFila" specification="_hfofUFWAEe2Kp5Fm8amPmw">
+            <language>JAVA</language>
+            <body>
+    if (fila &lt; 1 || fila > 8) {
+        throw new IllegalArgumentException(&quot;ERROR: Fila no válida.&quot;);
+    }
+    this.fila = fila;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hft-4FWAEe2Kp5Fm8amPmw" name="getFila" specification="_hfrioFWAEe2Kp5Fm8amPmw">
+            <language>JAVA</language>
+            <body>
+    return fila;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hfxpQFWAEe2Kp5Fm8amPmw" name="setColumna" specification="_hfvNAFWAEe2Kp5Fm8amPmw">
+            <language>JAVA</language>
+            <body>
+    if (columna &lt; 'a' || columna > 'h') {
+        throw new IllegalArgumentException(&quot;ERROR: Columna no válida.&quot;);
+    }
+    this.columna = columna;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hf0skFWAEe2Kp5Fm8amPmw" name="getColumna" specification="_hfy3YFWAEe2Kp5Fm8amPmw">
+            <language>JAVA</language>
+            <body>
+    return columna;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hf2hwFWAEe2Kp5Fm8amPmw" name="hashCode" specification="_hf1ToFWAEe2Kp5Fm8amPmw">
+            <language>JAVA</language>
+            <body>
+    return Objects.hash(columna, fila);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hgD9IFWAEe2Kp5Fm8amPmw" name="equals" specification="_hf_rsFWAEe2Kp5Fm8amPmw">
+            <language>JAVA</language>
+            <body>
+    if (this == obj)
+        return true;
+    if (obj == null)
+        return false;
+    if (getClass() != obj.getClass())
+        return false;
+    Posicion other = (Posicion) obj;
+    return columna == other.columna &amp;&amp; fila == other.fila;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hgHAcFWAEe2Kp5Fm8amPmw" name="toString" specification="_hgFLQFWAEe2Kp5Fm8amPmw">
+            <language>JAVA</language>
+            <body>
+    return String.format(&quot;fila=%s, columna=%s&quot;, fila, columna);
+</body>
+          </ownedBehavior>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_hfLMUFWAEe2Kp5Fm8amPmw" name="Posicion" visibility="public" method="_hfYAoFWAEe2Kp5Fm8amPmw">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hfUWQFWAEe2Kp5Fm8amPmw" name="fila" type="_heczkFWAEe2Kp5Fm8amPmw"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hfWLcFWAEe2Kp5Fm8amPmw" name="columna" type="_hfIJAFWAEe2Kp5Fm8amPmw"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_hfac4FWAEe2Kp5Fm8amPmw" name="Posicion" visibility="public" method="_hfk08FWAEe2Kp5Fm8amPmw">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hfiYsFWAEe2Kp5Fm8amPmw" name="posicion" type="_hdGIsFWAEe2Kp5Fm8amPmw"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_hfofUFWAEe2Kp5Fm8amPmw" name="setFila" visibility="private" method="_hfq7kFWAEe2Kp5Fm8amPmw">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hfptcFWAEe2Kp5Fm8amPmw" name="fila" type="_heczkFWAEe2Kp5Fm8amPmw"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_hfrioFWAEe2Kp5Fm8amPmw" name="getFila" visibility="public" method="_hft-4FWAEe2Kp5Fm8amPmw">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hfswwFWAEe2Kp5Fm8amPmw" type="_heczkFWAEe2Kp5Fm8amPmw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_hfvNAFWAEe2Kp5Fm8amPmw" name="setColumna" visibility="private" method="_hfxpQFWAEe2Kp5Fm8amPmw">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hfwbIFWAEe2Kp5Fm8amPmw" name="columna" type="_hfIJAFWAEe2Kp5Fm8amPmw"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_hfy3YFWAEe2Kp5Fm8amPmw" name="getColumna" visibility="public" method="_hf0skFWAEe2Kp5Fm8amPmw">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hf0FgFWAEe2Kp5Fm8amPmw" type="_hfIJAFWAEe2Kp5Fm8amPmw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_hf1ToFWAEe2Kp5Fm8amPmw" name="hashCode" visibility="public" method="_hf2hwFWAEe2Kp5Fm8amPmw">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hf16sFWAEe2Kp5Fm8amPmw" type="_heczkFWAEe2Kp5Fm8amPmw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_hf_rsFWAEe2Kp5Fm8amPmw" name="equals" visibility="public" method="_hgD9IFWAEe2Kp5Fm8amPmw">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hgA50FWAEe2Kp5Fm8amPmw" type="_hgASwFWAEe2Kp5Fm8amPmw" direction="return"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hgCvAFWAEe2Kp5Fm8amPmw" name="obj" type="_hf4W8FWAEe2Kp5Fm8amPmw"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_hgFLQFWAEe2Kp5Fm8amPmw" name="toString" visibility="public" method="_hgHAcFWAEe2Kp5Fm8amPmw">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hgGZYFWAEe2Kp5Fm8amPmw" type="_hWQg4FWAEe2Kp5Fm8amPmw" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_NksecFXOEe2vP-nFC_DPSQ" name="A_posicion_reina" memberEnd="_hdHW0FWAEe2Kp5Fm8amPmw _NkylEFXOEe2vP-nFC_DPSQ">
+          <ownedEnd xmi:type="uml:Property" xmi:id="_NkylEFXOEe2vP-nFC_DPSQ" name="reina" type="_hdApIFWAEe2Kp5Fm8amPmw" association="_NksecFXOEe2vP-nFC_DPSQ">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NkzMIFXOEe2vP-nFC_DPSQ"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NkzzMFXOEe2vP-nFC_DPSQ" value="1"/>
+          </ownedEnd>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_OwuMsFXOEe2vP-nFC_DPSQ" name="A_color_reina" memberEnd="_hdDscFWAEe2Kp5Fm8amPmw _Owx3EFXOEe2vP-nFC_DPSQ">
+          <ownedEnd xmi:type="uml:Property" xmi:id="_Owx3EFXOEe2vP-nFC_DPSQ" name="reina" type="_hdApIFWAEe2Kp5Fm8amPmw" association="_OwuMsFXOEe2vP-nFC_DPSQ">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OwyeIFXOEe2vP-nFC_DPSQ"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OwyeIVXOEe2vP-nFC_DPSQ" value="1"/>
+          </ownedEnd>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_4A9gIFXhEe2ix664qO4kow" name="A_reina_mainApp" memberEnd="_vIpVQFXZEe2vP-nFC_DPSQ _4BGqEFXhEe2ix664qO4kow">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_4BGqEFXhEe2ix664qO4kow" name="mainApp" type="_vIinkFXZEe2vP-nFC_DPSQ" association="_4A9gIFXhEe2ix664qO4kow">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4BH4MFXhEe2ix664qO4kow"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4BIfQFXhEe2ix664qO4kow" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hT1fAFWAEe2Kp5Fm8amPmw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hT5wcFWAEe2Kp5Fm8amPmw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/PapyrusJava/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PapyrusJava_PROFILES/PapyrusJava.profile.uml#_j9REUByGEduN1bTiWJ0lyw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hUp-YFWAEe2Kp5Fm8amPmw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hUrzkFWAEe2Kp5Fm8amPmw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/Codegen/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Codegen_PROFILES/Codegen.profile.uml#_fPDsIBa-EearhdjjJ6cVzQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hUtowFWAEe2Kp5Fm8amPmw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hUvd8FWAEe2Kp5Fm8amPmw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <PapyrusJava:External xmi:id="_hbb70FWAEe2Kp5Fm8amPmw" name="java.lang.String" base_Classifier="_hWQg4FWAEe2Kp5Fm8amPmw"/>
+  <standard:Create xmi:id="_hbwr8FWAEe2Kp5Fm8amPmw" base_BehavioralFeature="_hboJEFWAEe2Kp5Fm8amPmw"/>
+  <standard:Create xmi:id="_hckkQFWAEe2Kp5Fm8amPmw" base_BehavioralFeature="_hccocFWAEe2Kp5Fm8amPmw"/>
+  <standard:Create xmi:id="_hdOrkFWAEe2Kp5Fm8amPmw" base_BehavioralFeature="_hdIk8FWAEe2Kp5Fm8amPmw"/>
+  <standard:Create xmi:id="_hdcG8FWAEe2Kp5Fm8amPmw" base_BehavioralFeature="_hdVZQFWAEe2Kp5Fm8amPmw"/>
+  <PapyrusJava:External xmi:id="_hexjsFWAEe2Kp5Fm8amPmw" name="javax.naming.OperationNotSupportedException" base_Classifier="_hepA0FWAEe2Kp5Fm8amPmw"/>
+  <standard:Create xmi:id="_hfRS8FWAEe2Kp5Fm8amPmw" base_BehavioralFeature="_hfLMUFWAEe2Kp5Fm8amPmw"/>
+  <standard:Create xmi:id="_hff8cFWAEe2Kp5Fm8amPmw" base_BehavioralFeature="_hfac4FWAEe2Kp5Fm8amPmw"/>
+  <PapyrusJava:External xmi:id="_hf9PcFWAEe2Kp5Fm8amPmw" name="java.lang.Object" base_Classifier="_hf4W8FWAEe2Kp5Fm8amPmw"/>
+  <standard:Create xmi:id="_vHEA4FXZEe2vP-nFC_DPSQ" base_BehavioralFeature="_vG-hUFXZEe2vP-nFC_DPSQ"/>
+  <PapyrusJava:External xmi:id="_vIEGcFXZEe2vP-nFC_DPSQ" name="org.iesalandalus.programacion.reinaajedrez.modelo.Color" base_Classifier="_vH_1AFXZEe2vP-nFC_DPSQ"/>
+  <PapyrusJava:External xmi:id="_vIPFkFXZEe2vP-nFC_DPSQ" name="org.iesalandalus.programacion.reinaajedrez.modelo.Direccion" base_Classifier="_vILbMFXZEe2vP-nFC_DPSQ"/>
+</xmi:XMI>
