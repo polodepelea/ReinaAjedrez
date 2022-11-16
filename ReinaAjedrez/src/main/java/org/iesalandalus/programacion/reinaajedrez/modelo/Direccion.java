@@ -8,6 +8,6 @@ public enum Direccion {
 	SUR, 
 	SUROESTE, 
 	OESTE, 
-	NOROESTE
+	NOROESTE;
 
 }
