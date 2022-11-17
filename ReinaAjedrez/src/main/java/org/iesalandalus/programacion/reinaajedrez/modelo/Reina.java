@@ -49,7 +49,6 @@ public class Reina {
 		this.posicion = posicion;
 	}
 	
-	
 	public void mover(Direccion direccion, int pasos) throws OperationNotSupportedException {
 		if (direccion == null) {
 			throw new NullPointerException("ERROR: La dirección no puede ser nula.");
@@ -67,7 +66,6 @@ public class Reina {
 			}
 			break;
 		case NORESTE: 
-			
 			try {
 			setPosicion(new Posicion(posicion.getFila()+pasos,(char)(posicion.getColumna()+pasos)));
 			} catch (IllegalArgumentException e) {
@@ -117,7 +115,7 @@ public class Reina {
 			}
 			break;
 		}
-		}
+	}
 
 	@Override
 	public String toString() {

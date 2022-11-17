@@ -14,7 +14,6 @@ public class MainApp {
 		opcion = Consola.elegirOpcionMenu();
 		ejecutarOpcion(opcion);
 		}while(opcion != 4);
-		
 	}
 	
 	private static void ejecutarOpcion(int opcion) {
@@ -31,9 +30,7 @@ public class MainApp {
 		case 4:Consola.despedirse();
 			break;
 		default:
-
 		}
-	
 	}
 	
 	private static void crearReinaDefecto () {

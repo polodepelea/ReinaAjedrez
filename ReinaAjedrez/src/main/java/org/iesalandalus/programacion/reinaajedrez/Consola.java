@@ -7,11 +7,10 @@ import org.iesalandalus.programacion.utilidades.Entrada;
 public class Consola {
 	
 	private Consola() {
-		
+	
 	}
 	
 	public static void mostrarMenu() {
-		
 			System.out.println("\t.:MENU:.");
 			System.out.println("1.Crear reina por defecto");
 			System.out.println("2.Crear reina elegiendo color");

@@ -9,5 +9,4 @@ public enum Direccion {
 	SUROESTE, 
 	OESTE, 
 	NOROESTE;
-
 }

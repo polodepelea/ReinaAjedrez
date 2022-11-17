@@ -8,8 +8,6 @@ public class Posicion {
 	private char columna;
 	
 	
-	
-	
 	public Posicion(int fila, char columna) {
 		super();
 		setFila(fila);
