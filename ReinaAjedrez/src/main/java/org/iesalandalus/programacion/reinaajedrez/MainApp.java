@@ -45,6 +45,9 @@ public class MainApp {
 	}
 	
 	private static void mover() {
+		if(reina == null) {
+			throw new IllegalArgumentException("ERROR: La reina no existe");
+		}
 		Consola.mostrarMenuDirecciones();
 		try {
 			reina.mover(Consola.elegirDireccion(),Consola.elegirPasos());
